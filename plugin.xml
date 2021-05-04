@@ -22,8 +22,8 @@
     </changelog>
 
     <changelog version="1.0.1">
-        <changes lang="de">Kompatibilität zu Shopware 5.7 hergestellt.</changes>
-        <changes>Compatibility with Shopware 5.7 established.</changes>
+        <changes lang="de">Kompatibilität zu Shopware 5.2 hergestellt.</changes>
+        <changes>Compatibility with Shopware 5.2 established.</changes>
     </changelog>
     
     <changelog version="1.1.0">
