@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+	
+    <label lang="de">Viele Hover-Effekte für Einkaufswelten</label>
+    <label>Many hover effects for emotion elements</label>
+
+    <version>1.2.6</version>
+    <copyright>Copyright (c) 2021, Netzhirsch GbR</copyright>
+    <license>proprietary</license>
+    <link>https://www.netzhirsch.de</link>
+    <author>Netzhirsch GbR</author>
+    <compatibility minVersion="5.2.0"/>
+    
+    <description lang="de">Mit diesem Plugin können Sie ganz einfach Einkaufswelten-Elemente mit Hover-Effekten erstellen.</description>
+    <description>With this plugin you can easily create emotion elements with a several hover effects.</description>
+
+    <changelog version="1.0.0">
+        <changes lang="de">Erstveröffentlichung des Plugins.</changes>
+        <changes>Initial Release of the plugin.</changes>
+    </changelog>
+
+    <changelog version="1.0.1">
+        <changes lang="de">Kompatibilität zu Shopware 5.7 hergestellt.</changes>
+        <changes>Compatibility with Shopware 5.7 established.</changes>
+    </changelog>
+    
+    <changelog version="1.1.0">
+        <changes lang="de">Bei Bedarf kann die Verlinkung nun auf das komplette Element gelegt werden.</changes>
+        <changes>Now you can put the hyperlink on the whole element when needed.</changes>
+    </changelog>
+
+    <changelog version="1.2.0">
+        <changes lang="de">Kompatibilität zu Shopware 5.5.0 hergestellt: ionCube-Verschlüsselung wurde entfernt.</changes>
+        <changes>Compatibility with Shopware 5.5.0 made: ionCube encryption has been removed.</changes>
+    </changelog>
+
+    <changelog version="1.2.1">
+        <changes lang="de">Man kann nun optional Artikel auswählen, auf die man verlinken möchte.</changes>
+        <changes>You can now optionally select items that you want to link to.</changes>
+    </changelog>
+
+    <changelog version="1.2.3">
+        <changes lang="de">Verlinkungen funktionieren nun wieder korrekt.</changes>
+        <changes>Hyperlinks work correctly now.</changes>
+    </changelog>
+
+    <changelog version="1.2.4">
+        <changes lang="de">Diverse Anpassungen und Fehlerbehebungen.</changes>
+        <changes>Various adjustments and bug fixes.</changes>
+    </changelog>
+
+    <changelog version="1.2.5">
+        <changes lang="de">Anpassung der Hintergrundbild-Auswahl. Die Hintergrundbilder funktionieren nun auch (wieder) überall im Backend.</changes>
+        <changes>Adaptation of the background-image-selection. The backgroung images are working everywhere in the backend (again).</changes>
+    </changelog>
+
+    <changelog version="1.2.6">
+        <changes lang="de">Kompatibilität zu Shopware 5.7 hergestellt.</changes>
+        <changes>Compatibility with Shopware 5.7 made.</changes>
+    </changelog>
+</plugin>

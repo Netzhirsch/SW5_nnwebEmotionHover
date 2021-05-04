@@ -1,0 +1,89 @@
+.nnweb_emotion_hover.demeter {
+		
+	&:before {
+		display:block;
+		position:absolute;
+		left:0; top:0;
+		content:'';
+		width:100%;
+		height:100%;
+		background-image:inherit;
+		background-size:cover;
+		background-position:inherit;
+		transform:scale(1.2);
+	}
+	
+	.wrapper {
+		
+		.headline {
+			top:100%;
+			left:0;
+			transform:translateY(-100%);
+			margin:-5% 5% 0;
+		}
+		
+		p {
+			top:100%;
+			left:0;
+			width:100%;
+			margin:0;
+		}
+		
+		a, span.btn {
+			top:0;
+			right:0;
+			margin:5% 0;
+			transform:translateX(100%);
+		}
+	}
+	
+	&:hover {		
+		&:before {
+			transform:translateY(10%) scale(1.2);
+		}
+		
+		.wrapper {
+		
+			.headline {
+				margin:5%;
+				top:0;
+				transform:none;
+			}
+			
+			p {
+				transform:translateY(-100%);
+			}
+			
+			a, span.btn {
+				transform:none;
+				margin:5%;
+			}
+		}	
+	}
+}
+
+@media @touch {
+	.nnweb_emotion_hover.demeter {		
+		&:before {
+			transform:translateY(10%) scale(1.2);
+		}
+		
+		.wrapper {
+		
+			.headline {
+				margin:5%;
+				top:0;
+				transform:none;
+			}
+			
+			p {
+				transform:translateY(-100%);
+			}
+			
+			a, span.btn {
+				transform:none;
+				margin:5%;
+			}
+		}		
+	}
+}

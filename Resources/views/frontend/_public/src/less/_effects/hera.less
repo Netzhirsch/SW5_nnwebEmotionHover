@@ -1,0 +1,107 @@
+.nnweb_emotion_hover.hera {
+		
+	&:before {
+		display:block;
+		position:absolute;
+		left:0; top:0;
+		content:'';
+		width:100%;
+		height:100%;
+		background-image:inherit;
+		background-size:cover;
+		background-position:inherit;
+		transform:scale(1.2);
+	}
+	
+	.wrapper {
+		
+		position:absolute;
+		width:80%;
+		height:auto;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		text-align:left;
+		overflow:visible;
+		
+		.headline {
+			float:left;
+			width:100%;
+			margin:0;
+			position:relative;
+			
+			&:before {
+				display:block;
+				position:absolute;
+				bottom:0;
+				left:0;
+				content:'';
+				height:0;
+				border-bottom:2px solid;
+				width:0;
+			}
+		}
+		
+		p {
+			float:left;
+			position:static;
+			width:100%;
+			margin:0 0 2em;
+			opacity:0;
+			transform:translateX(120%);
+		}
+		
+		a, span.btn {
+			display:inline-block;
+			position:static;
+			margin:0;
+		}
+	}
+	
+	&:hover {
+		
+		&:before {
+			transform:none;
+		}
+		
+		.wrapper {
+		
+			.headline {
+				
+				&:before {
+					width:100%;
+				}
+			}
+			
+			p {
+				transform:none;
+				opacity:1;
+			}
+		}	
+	}
+}
+
+@media @touch {
+	.nnweb_emotion_hover.hera {
+		
+		&:before {
+			transform:none;
+		}
+		
+		.wrapper {
+		
+			.headline {
+				
+				&:before {
+					width:100%;
+				}
+			}
+			
+			p {
+				transform:none;
+				opacity:1;
+			}
+		}	
+			
+	}
+}

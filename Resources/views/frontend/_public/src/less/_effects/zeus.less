@@ -1,0 +1,116 @@
+.nnweb_emotion_hover.zeus {
+		
+	.helper {
+		display:block;
+		position:absolute;
+		left:0; top:0;
+		content:'';
+		width:100%;
+		height:100%;
+		background-image:inherit;
+		background-size:cover;
+		background-position:inherit;
+	}
+		
+	&:before,
+	&:after {
+		display:block;
+		position:absolute;
+		content:'';
+		width:auto;
+		height:auto;
+		box-sizing:border-box;
+		border-color:white;
+		border-style:solid;
+		z-index:1;
+		top:-1px;
+		bottom:-1px;
+		left:-1px;
+		right:-1px;
+	}
+	
+	&:before {
+		border-width:0 1px;
+	}
+	
+	&:after {
+		border-width:1px 0;
+	}
+	
+	.wrapper {
+		
+		position:absolute;
+		width:70%;
+		height:auto;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		text-align:center;
+		overflow:show;
+		
+		.headline {
+			float:left;
+			position:static;
+			width:100%;
+			margin:0;
+		}
+		
+		p {
+			float:left;
+			position:static;
+			width:100%;
+			margin:1em 0;
+		}
+		
+		a, span.btn {
+			display:inline-block;
+			position:static;
+			margin:0;
+		}
+	}
+	
+	&:hover {
+		
+		.helper {
+			transform:scale(1.2);
+		}
+	
+		&:before {
+			top:5%;
+			bottom:5%;
+			left:10%;
+			right:10%;
+		}
+		
+		&:after {
+			top:10%;
+			bottom:10%;
+			left:5%;
+			right:5%;
+		}
+	}
+}
+
+@media @touch {
+	.nnweb_emotion_hover.zeus {
+		
+		.helper {
+			transform:scale(1.2);
+		}
+	
+		&:before {
+			top:5%;
+			bottom:5%;
+			left:10%;
+			right:10%;
+		}
+		
+		&:after {
+			top:10%;
+			bottom:10%;
+			left:5%;
+			right:5%;
+		}
+			
+	}
+}
